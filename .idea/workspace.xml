@@ -26,10 +26,57 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1105" column="32" selection-start="36054" selection-end="36054" vertical-scroll-proportion="0.5530393" vertical-offset="20531" max-vertical-offset="23218">
+            <state line="527" column="52" selection-start="19360" selection-end="19360" vertical-scroll-proportion="0.33353186" vertical-offset="9453" max-vertical-offset="24320">
               <folding>
                 <element signature="n#style#0;n#nav#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Desktop/main-files/Zerif/with-animation/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="899" column="33" selection-start="30691" selection-end="31032" vertical-scroll-proportion="-16.571428" vertical-offset="16617" max-vertical-offset="33744">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="golfstory.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/golfstory.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="9" selection-start="1" selection-end="9" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="190">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="printTitle.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/printTitle.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="0" selection-start="443" selection-end="443" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="475">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jquery.nav.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/jquery.nav.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="39" column="29" selection-start="945" selection-end="950" vertical-scroll-proportion="0.0" vertical-offset="2612" max-vertical-offset="4332">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="styles.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/styles.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="555" column="14" selection-start="9813" selection-end="9815" vertical-scroll-proportion="0.0" vertical-offset="9327" max-vertical-offset="28823">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -44,6 +91,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
+        <option value="$PROJECT_DIR$/css/golfstory.css" />
+        <option value="$PROJECT_DIR$/js/printTitle.js" />
         <option value="$PROJECT_DIR$/css/styles.css" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
@@ -53,8 +102,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-4" />
     <option name="y" value="78" />
-    <option name="width" value="1928" />
-    <option name="height" value="1006" />
+    <option name="width" value="1088" />
+    <option name="height" value="1846" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -82,7 +131,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -191,6 +239,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -255,15 +304,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="78" width="1928" height="1006" extended-state="6" />
-    <editor active="false" />
+    <frame x="-4" y="78" width="1088" height="1846" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24969098" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.052604165" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21018519" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
@@ -299,21 +348,80 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/styles.css">
+    <entry file="file://$PROJECT_DIR$/css/owl.carousel.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="23" selection-start="596" selection-end="596" vertical-scroll-proportion="0.26511627" vertical-offset="0" max-vertical-offset="28386">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1463">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/backgrounds/bg1.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/js/zerif.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="36" selection-start="756" selection-end="756" vertical-scroll-proportion="0.0" vertical-offset="3167" max-vertical-offset="4047">
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery.scrollTo.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="867">
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/smoothscroll.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="185" column="32" selection-start="4707" selection-end="4730" vertical-scroll-proportion="3.2818182" vertical-offset="627" max-vertical-offset="5871">
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/golfstory.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="9" selection-start="1" selection-end="9" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="880">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/printTitle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="443" selection-end="443" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="475">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery.nav.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="29" selection-start="945" selection-end="950" vertical-scroll-proportion="0.0" vertical-offset="3452" max-vertical-offset="4332">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="555" column="14" selection-start="9813" selection-end="9815" vertical-scroll-proportion="0.0" vertical-offset="9327" max-vertical-offset="28823">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/main-files/Zerif/with-animation/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="899" column="33" selection-start="30691" selection-end="31032" vertical-scroll-proportion="-16.571428" vertical-offset="16617" max-vertical-offset="33744">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1105" column="32" selection-start="36054" selection-end="36054" vertical-scroll-proportion="0.5530393" vertical-offset="20531" max-vertical-offset="23218">
+        <state line="527" column="52" selection-start="19360" selection-end="19360" vertical-scroll-proportion="0.33353186" vertical-offset="9453" max-vertical-offset="24320">
           <folding>
             <element signature="n#style#0;n#nav#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>

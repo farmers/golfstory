@@ -16,7 +16,7 @@ body {
 
 
 
-	font-family:  'Lato',  sans-serif !important;
+	font-family:  '나눔고딕','Lato',  sans-serif !important;
 	font-size: 14px;
 	color: #808080;
 	font-weight: normal;
@@ -527,16 +527,15 @@ input:focus {
 -----------------------------------------*/
 
 .focus {
-	padding-bottom: 100px;
+	padding-bottom: 50px;
 	overflow: hidden;
 	background: #FFFFFF;
 }
 /* FOCUS BOX */
 .focus-box {
-	margin-bottom: 75px;
+	margin-bottom: 35px;
 }
 .focus-box .service-icon {
-	margin-bottom: 30px;
 	width: 145px;
 	height: 145px;
 	margin: auto;

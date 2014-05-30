@@ -32,6 +32,8 @@
 <link rel="stylesheet" href="css/styles.css">
 <link rel="stylesheet" href="css/responsive.css">
 
+<link rel="stylesheet" href="css/golfstory.css">
+
 <!-- WEBFONT -->
 <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,400italic|Montserrat:700,400|Homemade+Apple' rel='stylesheet' type='text/css'>
 
@@ -75,6 +77,8 @@
 			<ul class="nav navbar-nav navbar-right responsive-nav main-nav-list">
 				<li><a href="#focus">주요기능</a></li>
 				<li><a href="#works">미리보기</a></li>
+                <li><a href="#aboutus">다운로드</a></li>
+                <li><a href="#products">사용중인 골프장</a></li>
 				<li><a href="#testimonials">추천글</a></li>
 				<li><a href="#contact">가맹문의</a></li>
 			</ul>
@@ -86,33 +90,30 @@
 	<!-- BIG HEADING WITH CALL TO ACTION BUTTONS AND SHORT MESSAGES -->
 	<div class="container">
 
-		<!-- HEADING -->
-		<h1 class="intro" id="intro">Affordable Quality services for Small Businesses</h1>
+        <div id="owl-demo" class="owl-carousel owl-theme">
+            <div class="item">
+                <!-- HEADING -->
+                <h1 class="intro" id="intro1">평일 낮 시간에 골프장이 텅텅 비어있나요?</h1>
 
-		<!-- CALL TO ACTION BUTTONS -->
-		<div class="buttons">
-			<a href="#" class="btn btn-primary custom-button red-btn">기능 알아보기</a>
-			<a href="#" class="btn btn-primary custom-button green-btn">사용중인 골프장</a>
-		</div>
+                <!-- CALL TO ACTION BUTTONS -->
+            </div>
+            <div class="item">
+                <!-- HEADING -->
+                <h1 class="intro" id="intro2">스미싱에 떨고 있는 고객에게 비효율적인 문자광고를 하시나요?</h1>
+                <!-- CALL TO ACTION BUTTONS -->
+            </div>
+            <div class="item">
+                <!-- HEADING -->
+                <h1 class="intro" id="intro3">골프장을 방문했던 모든 고객들의 정보를 얻지 못하고 있나요?</h1>
+                <!-- CALL TO ACTION BUTTONS -->
 
-		<!-- 3 SHORT MESSAGE ABOUT COMPANY -->
-        <div class="row bottom-message-section">
-			<div class="col-lg-4 col-sm-4">
-				<div class="short-text">
-					<i class="icon icon-fontawesome-webfont-358"></i> Fixed price for packages
-				</div>
-			</div>
-			<div class="col-lg-4 col-sm-4">
-				<div class="short-text">
-					<i class="icon-fontawesome-webfont-286"></i> Quality product in time
-				</div>
-			</div>
-			<div class="col-lg-4 col-sm-4">
-				<div class="short-text">
-					<i class="icon-fontawesome-webfont-347"></i> Satisfaction guranteed
-				</div>
-			</div>
-		</div>
+            </div>
+
+        </div>
+        <div class="buttons" id="intro-button">
+            <a href="#focus" class="btn btn-primary custom-button red-btn">기능 알아보기</a>
+            <a href="#products" class="btn btn-primary custom-button green-btn">사용중인 골프장</a>
+        </div>
 	</div> <!-- / END BIG HEADING WITH CALL TO ACTION BUTTONS AND SHORT MESSAGES  -->
 
 </header> <!-- / END HOME SECTION  -->
@@ -128,11 +129,11 @@
 	<div class="section-header">
 
 		<!-- SECTION TITLE -->
-		<h2 class="dark-text">주요기능</h2>
+		<h2 class="dark-text">회원관리, 쉽게 가세요</h2>
 
 		<!-- SHORT DESCRIPTION ABOUT THE SECTION -->
 		<h6>
-			We design &amp; develop qaulity products to help small &amp; medium level business.
+			스마트한 시대에 어울리는 회원관리가 필요합니다.
 		</h6>
 	</div>
 	<!-- / END SECTION HEADER -->
@@ -143,9 +144,9 @@
 		<!-- FIRST FOCUS BOXES -->
 		<div class="col-lg-3 col-sm-3 focus-box red wow fadeInLeft animated" data-wow-offset="30" data-wow-duration="1.5s" data-wow-delay="0.15s">
 			<div class="service-icon">
-				<i class="pixeden pd-icon-monitor"></i> <!-- FOCUS ICON-->
+				<i class="pixeden pd-icon-user"></i> <!-- FOCUS ICON-->
 			</div>
-			<h5 class="red-border-bottom">편리한 회원 관리</h5> <!-- FOCUS HEADING -->
+			<h5 class="red-border-bottom">회원 관리</h5> <!-- FOCUS HEADING -->
 			<p> <!-- FOCUS DESCRIPTION -->
 				 회원가입을 통해 얻어진 회원 정보를 챠트, 회원검색 등을 통해 효율적으로 관리할 수 있습니다.
 			</p>
@@ -154,11 +155,11 @@
 
 		<div class="col-lg-3 col-sm-3 focus-box green wow fadeInLeft animated" data-wow-offset="30" data-wow-duration="1.5s" data-wow-delay="0.15s">
 			<div class="service-icon">
-				<span class="pixeden pd-icon-camera"></span>
+				<span class="pixeden pd-icon-tablet"></span>
 			</div>
-			<h5 class="green-border-bottom">라운딩 성적 관리</h5>
+			<h5 class="green-border-bottom">성적 관리</h5>
 			<p>
-				 플레이 한 스코어를 홈페이지에서 업로드하고 Application으로 확인할 수 있습니다. 이 기록들을 바탕으로 순위도 확인할 수 있습니다.
+				 플레이 한 스코어를 홈페이지에서 업로드하고 앱으로 확인할 수 있습니다. 이 기록들을 바탕으로 순위도 확인할 수 있습니다.
 			</p>
 		</div>
 
@@ -168,284 +169,348 @@
 			</div>
 			<h5 class="blue-border-bottom">푸쉬 알림</h5>
 			<p>
-				 홈페이지를 통해 원하는 메시지를 작성할 수 있고 이를 사용자 Application으로 전송하여 공지, 골프장 홍보 등이 가능합니다.
+				 홈페이지를 통해 원하는 메시지를 작성할 수 있고 이를 사용자 앱으로 전송하여 공지, 골프장 홍보 등이 가능합니다.
 			</p>
 		</div>
 
 		<div class="col-lg-3 col-sm-3 focus-box yellow wow fadeInRight animated" data-wow-offset="30" data-wow-duration="1.5s" data-wow-delay="0.15s">
 			<div class="service-icon">
-				<i class="pixeden pd-icon-check"></i>
+				<i class="pixeden pd-icon-worldmap"></i>
 			</div>
-			<h5 class="yellow-border-bottom">SNS 기능 제공</h5>
+			<h5 class="yellow-border-bottom">SNS</h5>
 			<p>
-				 Application에서 사용자들에게 SNS 기능을 제공하여 흥미유발을 통해 사용자 유치에 효과적입니다. 또한 이를 바탕으로 사용자 맞춤형 광고가 가능합니다.
+				 앱에서 사용자들에게 SNS 기능을 제공하여 흥미유발을 통해 사용자 유치에 효과적입니다. 또한 이를 바탕으로 사용자 맞춤형 광고가 가능합니다.
 			</p>
 		</div>
 	</div>
 	<!-- / END 4 FOCUS BOXES -->
+</div>
+</section>
+<section class="packages" id="pricingtable">
+<div class="container">
+    <!-- SECTION HEADER -->
+    <div class="section-header">
 
-	<!-- OTHER FOCUSES -->
-	<div class="other-focuses">
-		<h5><span class="section-footer-title">지원하는 기기</span></h5>
-	</div>
+        <!-- SECTION TITLE -->
+        <h2 class="white-text">기능 세부 내용</h2>
 
-	<!-- OTHER FOCUS LIST -->
-	<div class="other-focus-list wow fadeInUp animated" data-wow-offset="30" data-wow-duration="1.5s" data-wow-delay="0.15s">
-		<ul>
-			<li><i class="icon-fontawesome-webfont-8"></i>WEB APPLICATIONS</li>
-			<li><i class="icon-fontawesome-webfont-328"></i>ANDROID APP</li>
-		</ul>
-	</div> <!-- / END OTHER FOCUS LIST -->
+    </div>
+    <!-- / END SECTION HEADER -->
+
+    <!-- FIRST PACKAGE -->
+    <div class="col-lg-3 col-sm-3">
+        <div class="package wow fadeInLeft animated" data-wow-offset="30" data-wow-duration="1.5s" data-wow-delay="0.15s">
+            <div class="package-header red-bg">
+                <h5>회원</h5>
+            </div>
+            <ul>
+                <li><i class="icon-check"></i>통합된 회원관리</li>
+                <li><i class="icon-cancel"></i>주요 수치 분석</li>
+                <li><i class="icon-cancel"></i>오늘 주요 수치 분석</li>
+                <li><i class="icon-cancel"></i>사용자 분포 분석</li>
+                <li><i class="icon-cancel"></i>그외 새로운 기능들</li>
+            </ul>
+        </div>
+    </div> <!-- / END FIRST PACKAGE -->
+
+    <!-- 2nd PACKAGE -->
+    <div class="col-lg-3 col-sm-3">
+        <div class="package wow fadeInLeft animated" data-wow-offset="30" data-wow-duration="1.5s" data-wow-delay="0.15s">
+            <div class="package-header green-bg">
+                <h5>성적</h5>
+            </div>
+            <ul>
+                <li><i class="icon-check"></i>라운딩 성적 관리</li>
+                <li><i class="icon-cancel"></i>성적 통계</li>
+                <li><i class="icon-cancel"></i>그리고 새로운 기능들</li>
+                <li><i class="icon-cancel"></i>그외 새로운 기능들</li>
+                <li><i class="icon-cancel"></i>Extended Security</li>
+            </ul>
+        </div>
+    </div> <!-- / END 2nd PACKAGE -->
+
+    <!-- 3rd PACKAGE -->
+    <div class="col-lg-3 col-sm-3">
+        <div class="package wow fadeInLeft animated" data-wow-offset="30" data-wow-duration="1.5s" data-wow-delay="0.15s">
+            <div class="package-header blue-bg">
+                <h5>푸쉬</h5>
+            </div>
+            <ul>
+                <li><i class="icon-check"></i>무료 푸쉬 알림</li>
+                <li><i class="icon-cancel"></i>맞춤/예약 발송</li>
+                <li><i class="icon-cancel"></i>마케팅 분석</li>
+                <li><i class="icon-cancel"></i>그리고 새로운 기능들</li>
+                <li><i class="icon-cancel"></i>그리고 새로운 기능들</li>
+            </ul>
+        </div>
+    </div> <!-- / END 3rd PACKAGE -->
+
+    <!-- 4th PACKAGE -->
+    <div class="col-lg-3 col-sm-3">
+        <div class="package wow fadeInLeft animated" data-wow-offset="30" data-wow-duration="1.5s" data-wow-delay="0.15s">
+            <div class="package-header yellow-bg">
+                <h5>SNS</h5>
+            </div>
+            <ul>
+                <li><i class="icon-check"></i>라운딩 소식 공유</li>
+                <li><i class="icon-check"></i>글/사진/동영상 공유</li>
+                <li><i class="icon-check"></i>스윙 동영상 공유</li>
+                <li><i class="icon-cancel"></i>그리고 새로운 기능들</li>
+                <li><i class="icon-cancel"></i>그리고 새로운 기능들</li>
+            </ul>
+        </div>
+    </div> <!-- / END 4th PACKAGE -->
 </div> <!-- / END CONTAINER -->
 </section>  <!-- / END FOCUS SECTION -->
 
-<!-- =========================
-   SEPARATOR ONE      
-============================== -->
-
-<section class="separator-one">
-<div class="color-overlay">
-	<h3 class="container text wow fadeInLeft animated" data-wow-offset="30" data-wow-duration="1.5s" data-wow-delay="0.15s">
-	We have 100+ happy customers in last few years. You can check what they're saying about us. </h3>
-	<div class="wow fadeInRight animated" data-wow-offset="30" data-wow-duration="1.5s" data-wow-delay="0.15s">
-		<a href="" class="btn btn-primary custom-button green-btn">서비스 신청하기</a>
-	</div>
-</div>
-</section>  <!-- / END SEPARATOR -->
-
 
 <!-- =========================
-   WORKS SECTION      
+   WORKS SECTION
 ============================== -->
 
 <section class="works" id="works">
 <div class="container">
 
-	<!-- SECTION HEADER -->
-	<div class="section-header">
+<!-- SECTION HEADER -->
+<div class="section-header">
 
-		<!-- SECTION TITLE -->
-		<h2 class="dark-text">미리보기</h2>
+    <!-- SECTION TITLE -->
+    <h2 class="dark-text">미리보기</h2>
 
-		<!-- SHORT DESCRIPTION ABOUT THE SECTION -->
-		<h6>
-			We have designed and developed many awesome products. Just take a look.
-		</h6>
-	</div>
-	<!-- / END SECTION HEADER -->
-	<div class="row projects">
-	<div id="loader">
-	    <div class="loader-icon"></div>
-	</div>
-	<div class="col-md-12" id="portfolio-list">
-		<!-- PORTFOLIO ITEMS-->
-		<ul class="cbp-rfgrid">
+    <!-- SHORT DESCRIPTION ABOUT THE SECTION -->
+    <h6>
+        골프스토리의 주요 기능들을 미리 알아보세요.
+    </h6>
+</div>
+<!-- / END SECTION HEADER -->
+<div class="row projects">
+<div id="loader">
+    <div class="loader-icon"></div>
+</div>
+<div class="col-md-12" id="portfolio-list">
+    <!-- PORTFOLIO ITEMS-->
+    <ul class="cbp-rfgrid">
 
         <!-- PROJECT -->
         <li class="wow fadeInLeft animated" data-wow-offset="30" data-wow-duration="1.5s" data-wow-delay="0.15s">
-        <a href="project.html" class="more"><img src="images/portfolio/1.jpg"  alt="project"/>
-			<div class="project-info">
-				<div class="project-details">
-					<h5 class="white-text red-border-bottom">
-					Project Title </h5>
-					<div class="details white-text">
-						Web Design
-					</div>
-				</div>
-			</div>
-			</a>
+            <a href="project.html" class="more"><img src="images/portfolio/1.jpg"  alt="project"/>
+                <div class="project-info">
+                    <div class="project-details">
+                        <h5 class="white-text red-border-bottom">
+                            Project Title </h5>
+                        <div class="details white-text">
+                            Web Design
+                        </div>
+                    </div>
+                </div>
+            </a>
         </li>
         <!-- / PROJECT -->
 
         <!-- PROJECT -->
         <li class="wow fadeInDown animated" data-wow-offset="30" data-wow-duration="1.5s" data-wow-delay="0.15s">
-        <a href="project.html" class="more"><img src="images/portfolio/2.jpg" alt="project" />
-			<div class="project-info">
-				<div class="project-details">
-					<h5 class="white-text red-border-bottom">
-					Project Title </h5>
-					<div class="details white-text">
-						Web Design
-					</div>
-				</div>
-			</div>
-			</a>
+            <a href="project.html" class="more"><img src="images/portfolio/2.jpg" alt="project" />
+                <div class="project-info">
+                    <div class="project-details">
+                        <h5 class="white-text red-border-bottom">
+                            Project Title </h5>
+                        <div class="details white-text">
+                            Web Design
+                        </div>
+                    </div>
+                </div>
+            </a>
         </li>
         <!-- / PROJECT -->
 
         <!-- PROJECT -->
         <li class="wow fadeInDown animated" data-wow-offset="30" data-wow-duration="1.5s" data-wow-delay="0.15s">
-        <a href="project.html" class="more"><img src="images/portfolio/3.jpg"  alt="project"/>
-			<div class="project-info">
-				<div class="project-details">
-					<h5 class="white-text red-border-bottom">
-					Project Title </h5>
-					<div class="details white-text">
-						Web Design
-					</div>
-				</div>
-			</div>
-			</a>
+            <a href="project.html" class="more"><img src="images/portfolio/3.jpg"  alt="project"/>
+                <div class="project-info">
+                    <div class="project-details">
+                        <h5 class="white-text red-border-bottom">
+                            Project Title </h5>
+                        <div class="details white-text">
+                            Web Design
+                        </div>
+                    </div>
+                </div>
+            </a>
         </li>
         <!-- / PROJECT -->
 
-		<!-- PROJECT -->
+        <!-- PROJECT -->
         <li class="wow fadeInRight animated" data-wow-offset="30" data-wow-duration="1.5s" data-wow-delay="0.15s">
-        <a href="project.html" class="more"><img src="images/portfolio/4.jpg"  alt="project"/>
-			<div class="project-info">
-				<div class="project-details">
-					<h5 class="white-text red-border-bottom">
-					Project Title </h5>
-					<div class="details white-text">
-						Web Design
-					</div>
-				</div>
-			</div>
-			</a>
+            <a href="project.html" class="more"><img src="images/portfolio/4.jpg"  alt="project"/>
+                <div class="project-info">
+                    <div class="project-details">
+                        <h5 class="white-text red-border-bottom">
+                            Project Title </h5>
+                        <div class="details white-text">
+                            Web Design
+                        </div>
+                    </div>
+                </div>
+            </a>
         </li>
         <!-- / PROJECT -->
 
         <!-- PROJECT -->
         <li class="wow fadeInLeft animated" data-wow-offset="30" data-wow-duration="1.8s" data-wow-delay="0.15s">
-        <a href="project.html" class="more"><img src="images/portfolio/5.jpg" alt="project"/>
-			<div class="project-info">
-				<div class="project-details">
-					<h5 class="white-text red-border-bottom">
-					Project Title </h5>
-					<div class="details white-text">
-						Web Design
-					</div>
-				</div>
-			</div>
-			</a>
+            <a href="project.html" class="more"><img src="images/portfolio/5.jpg" alt="project"/>
+                <div class="project-info">
+                    <div class="project-details">
+                        <h5 class="white-text red-border-bottom">
+                            Project Title </h5>
+                        <div class="details white-text">
+                            Web Design
+                        </div>
+                    </div>
+                </div>
+            </a>
         </li>
         <!-- / PROJECT -->
 
         <!-- PROJECT -->
         <li>
-        <a href="project.html" class="more"><img src="images/portfolio/6.jpg" alt="project"/>
-			<div class="project-info">
-				<div class="project-details">
-					<h5 class="white-text red-border-bottom">
-					Project Title </h5>
-					<div class="details white-text">
-						Web Design
-					</div>
-				</div>
-			</div>
-			</a>
+            <a href="project.html" class="more"><img src="images/portfolio/6.jpg" alt="project"/>
+                <div class="project-info">
+                    <div class="project-details">
+                        <h5 class="white-text red-border-bottom">
+                            Project Title </h5>
+                        <div class="details white-text">
+                            Web Design
+                        </div>
+                    </div>
+                </div>
+            </a>
         </li>
         <!-- / PROJECT -->
 
-         <!-- PROJECT -->
+        <!-- PROJECT -->
         <li>
-        <a href="project.html" class="more"><img src="images/portfolio/7.jpg"  alt="project"/>
-			<div class="project-info">
-				<div class="project-details">
-					<h5 class="white-text red-border-bottom">
-					Project Title </h5>
-					<div class="details white-text">
-						Web Design
-					</div>
-				</div>
-			</div>
-			</a>
+            <a href="project.html" class="more"><img src="images/portfolio/7.jpg"  alt="project"/>
+                <div class="project-info">
+                    <div class="project-details">
+                        <h5 class="white-text red-border-bottom">
+                            Project Title </h5>
+                        <div class="details white-text">
+                            Web Design
+                        </div>
+                    </div>
+                </div>
+            </a>
         </li>
         <!-- / PROJECT -->
 
-         <!-- PROJECT -->
+        <!-- PROJECT -->
         <li class="wow fadeInRight animated" data-wow-offset="30" data-wow-duration="1.8s" data-wow-delay="0.15s">
-        <a href="project.html" class="more"><img src="images/portfolio/8.jpg"  alt="project"/>
-			<div class="project-info">
-				<div class="project-details">
-					<h5 class="white-text red-border-bottom">
-					Project Title </h5>
-					<div class="details white-text">
-						Web Design
-					</div>
-				</div>
-			</div>
-			</a>
+            <a href="project.html" class="more"><img src="images/portfolio/8.jpg"  alt="project"/>
+                <div class="project-info">
+                    <div class="project-details">
+                        <h5 class="white-text red-border-bottom">
+                            Project Title </h5>
+                        <div class="details white-text">
+                            Web Design
+                        </div>
+                    </div>
+                </div>
+            </a>
         </li>
         <!-- / PROJECT -->
 
         <!-- PROJECT -->
         <li class="wow fadeInLeft animated" data-wow-offset="30" data-wow-duration="2s" data-wow-delay="0.25s">
-        <a href="project.html" class="more"><img src="images/portfolio/9.jpg" alt="project"/>
-			<div class="project-info">
-				<div class="project-details">
-					<h5 class="white-text red-border-bottom">
-					Project Title </h5>
-					<div class="details white-text">
-						Web Design
-					</div>
-				</div>
-			</div>
-			</a>
+            <a href="project.html" class="more"><img src="images/portfolio/9.jpg" alt="project"/>
+                <div class="project-info">
+                    <div class="project-details">
+                        <h5 class="white-text red-border-bottom">
+                            Project Title </h5>
+                        <div class="details white-text">
+                            Web Design
+                        </div>
+                    </div>
+                </div>
+            </a>
         </li>
         <!-- / PROJECT -->
 
         <!-- PROJECT -->
         <li class="wow fadeInUp animated" data-wow-offset="30" data-wow-duration="2s" data-wow-delay="0.25s">
-        <a href="project.html" class="more"><img src="images/portfolio/10.jpg" alt="project"/>
-			<div class="project-info">
-				<div class="project-details">
-					<h5 class="white-text red-border-bottom">
-					Project Title </h5>
-					<div class="details white-text">
-						Web Design
-					</div>
-				</div>
-			</div>
-			</a>
+            <a href="project.html" class="more"><img src="images/portfolio/10.jpg" alt="project"/>
+                <div class="project-info">
+                    <div class="project-details">
+                        <h5 class="white-text red-border-bottom">
+                            Project Title </h5>
+                        <div class="details white-text">
+                            Web Design
+                        </div>
+                    </div>
+                </div>
+            </a>
         </li>
         <!-- / PROJECT -->
 
         <!-- PROJECT -->
         <li class="wow fadeInUp animated" data-wow-offset="30" data-wow-duration="2s" data-wow-delay="0.25s">
-        <a href="project.html" class="more"><img src="images/portfolio/11.jpg"  alt="project"/>
-			<div class="project-info">
-				<div class="project-details">
-					<h5 class="white-text red-border-bottom">
-					Project Title </h5>
-					<div class="details white-text">
-						Web Design
-					</div>
-				</div>
-			</div>
-			</a>
+            <a href="project.html" class="more"><img src="images/portfolio/11.jpg"  alt="project"/>
+                <div class="project-info">
+                    <div class="project-details">
+                        <h5 class="white-text red-border-bottom">
+                            Project Title </h5>
+                        <div class="details white-text">
+                            Web Design
+                        </div>
+                    </div>
+                </div>
+            </a>
         </li>
         <!-- / PROJECT -->
 
         <!-- PROJECT -->
         <li class="wow fadeInRight animated" data-wow-offset="30" data-wow-duration="2s" data-wow-delay="0.25s">
-        <a href="project.html" class="more"><img src="images/portfolio/12.jpg"  alt="project"/>
-			<div class="project-info">
-				<div class="project-details">
-					<h5 class="white-text red-border-bottom">
-					Project Title </h5>
-					<div class="details white-text">
-						Web Design
-					</div>
-				</div>
-			</div>
-			</a>
+            <a href="project.html" class="more"><img src="images/portfolio/12.jpg"  alt="project"/>
+                <div class="project-info">
+                    <div class="project-details">
+                        <h5 class="white-text red-border-bottom">
+                            Project Title </h5>
+                        <div class="details white-text">
+                            Web Design
+                        </div>
+                    </div>
+                </div>
+            </a>
         </li>
         <!-- / PROJECT -->
 
         <!-- ... -->
-		</ul>
-	</div>
-	<!-- END OF PORTFOLIO ITEMS-->
+    </ul>
+</div>
+<!-- END OF PORTFOLIO ITEMS-->
 </div>
 
-	<!-- PROJECT DETAILS WILL BE LOADED HERE -->
-	<div id="loaded-content"></div>
+<!-- PROJECT DETAILS WILL BE LOADED HERE -->
+<div id="loaded-content"></div>
 
-    <a id="back-button" class="red-btn" href="#"><i class="icon-fontawesome-webfont-27"></i> Go Back</a>
+<a id="back-button" class="red-btn" href="#"><i class="icon-fontawesome-webfont-27"></i> Go Back</a>
 
 </div> <!-- / END CONTAINER -->
 </section> <!-- / END WORKS SECTION -->
+
+<!-- =========================
+   SEPARATOR ONE
+============================== -->
+
+<section class="separator-one">
+    <div class="color-overlay">
+        <h3 class="container text wow fadeInLeft animated" data-wow-offset="30" data-wow-duration="1.5s" data-wow-delay="0.15s">
+            이미 많은 골프장이 저희와 함께 하고 있습니다.<br>고객들의 이야기를 들어보세요.</h3>
+        <div class="wow fadeInRight animated" data-wow-offset="30" data-wow-duration="1.5s" data-wow-delay="0.15s">
+            <a href="#testimonials" class="btn btn-primary custom-button green-btn">추천글 보기</a>
+        </div>
+    </div>
+</section>  <!-- / END SEPARATOR -->
+
 
 
 <!-- =========================
@@ -459,29 +524,23 @@
 	<div class="section-header">
 
 		<!-- SECTION TITLE -->
-		<h2 class="white-text">About US</h2>
-
+		<h2 class="white-text">다운로드</h2>
 		<!-- SHORT DESCRIPTION ABOUT THE SECTION -->
 		<h6 class="white-text">
-				We design &amp; develop qaulity products to help small &amp; medium level business.
+				구글 플레이 스토어에서 골프스토리를 다운받으세요.
 		</h6>
 	</div>
 	<!-- / END SECTION HEADER -->
 
 	<!-- CLIENTS -->
 	<div class="our-clients">
-		<h5><span class="section-footer-title">OUR HAPPY CLIENTS</span></h5>
+		<h5><span class="section-footer-title">지원 기기</span></h5>
 	</div>
 	<!-- CLIENT LIST -->
 	<div class="client-list">
 		<ul class="wow fadeInRight animated" data-wow-offset="30" data-wow-duration="1.5s" data-wow-delay="0.15s">
 			<li><a href="#"><img src="images/clients/1.png" alt="Client 1"></a></li>
 			<li><a href="#"><img src="images/clients/2.png" alt="Client 2"></a></li>
-			<li><a href="#"><img src="images/clients/3.png" alt="Client 3"></a></li>
-			<li><a href="#"><img src="images/clients/1.png" alt="Client 1"></a></li>
-			<li><a href="#"><img src="images/clients/4.png" alt="Client 4"></a></li>
-			<li><a href="#"><img src="images/clients/5.png" alt="Client 5"></a></li>
-			<li><a href="#"><img src="images/clients/6.png" alt="Client 6"></a></li>
 		</ul>
 	</div> <!-- / END CLIENT LIST -->
 </div> <!-- / END CONTAINER -->
@@ -489,69 +548,68 @@
 </section> <!-- END ABOUT US SECTION -->
 
 <!-- =========================
-   STATS              
+   STATS
 ============================== -->
 
 <section class="stats">
-	<div class="container">
-	    <!-- STATS -->
-	    <div class="row">
+    <div class="container">
+        <!-- STATS -->
+        <div class="row">
 
-	        <!-- START COLUMN -->
-	        <div class="col-lg-3 col-sm-3">
-	            <div class="stat wow fadeInUp animated" data-wow-offset="30" data-wow-duration="1.5s" data-wow-delay="0.15s">
-	                <div class="icon-top red-text">
-	                    <i class="icon-design-graphic-tablet-streamline-tablet"></i>
-	                </div>
-	                <div class="stat-text">
-	                <h3 class="white-text red-border-bottom">1,236</h3>
-	                <h6>앱 이용자</h6>
-	                </div>
-	            </div>
-	        </div> <!-- / END COLUMN -->
+            <!-- START COLUMN -->
+            <div class="col-lg-3 col-sm-3">
+                <div class="stat wow fadeInUp animated" data-wow-offset="30" data-wow-duration="1.5s" data-wow-delay="0.15s">
+                    <div class="icon-top red-text">
+                        <i class="icon-phone-1"></i>
+                    </div>
+                    <div class="stat-text">
+                        <h3 class="white-text red-border-bottom">1,236</h3>
+                        <h6>앱 이용자</h6>
+                    </div>
+                </div>
+            </div> <!-- / END COLUMN -->
 
-	        <!-- START COLUMN -->
-	        <div class="col-lg-3 col-sm-3">
-	            <div class="stat wow fadeInUp animated" data-wow-offset="30" data-wow-duration="1.75s" data-wow-delay="0.30s">
-	                <div class="icon-top green-text">
-	                    <i class="icon-man-people-streamline-user"></i>
-	                </div>
-	                <div class="stat-text">
-	                <h3 class="white-text green-border-bottom">196</h3>
-	                <h6>사용중인 골프장</h6>
-	                </div>
-	            </div>
-	        </div> <!-- / END COLUMN -->
+            <!-- START COLUMN -->
+            <div class="col-lg-3 col-sm-3">
+                <div class="stat wow fadeInUp animated" data-wow-offset="30" data-wow-duration="1.75s" data-wow-delay="0.30s">
+                    <div class="icon-top green-text">
+                        <i class="icon-man-people-streamline-user"></i>
+                    </div>
+                    <div class="stat-text">
+                        <h3 class="white-text green-border-bottom">196</h3>
+                        <h6>사용중인 골프장</h6>
+                    </div>
+                </div>
+            </div> <!-- / END COLUMN -->
 
-	        <!-- START COLUMN -->
-	        <div class="col-lg-3 col-sm-3">
-	            <div class="stat wow fadeInUp animated" data-wow-offset="30" data-wow-duration="2s" data-wow-delay="0.45s">
-	                <div class="icon-top blue-text">
-	                    <i class="icon-email-mail-streamline"></i>
-	                </div>
-	                <div class="stat-text">
-	                <h3 class="white-text blue-border-bottom">56,236</h3>
-	                <h6>누적 푸쉬알림</h6>
-	                </div>
-	            </div>
-	        </div> <!-- / END COLUMN -->
+            <!-- START COLUMN -->
+            <div class="col-lg-3 col-sm-3">
+                <div class="stat wow fadeInUp animated" data-wow-offset="30" data-wow-duration="2s" data-wow-delay="0.45s">
+                    <div class="icon-top blue-text">
+                        <i class="icon-email-mail-streamline"></i>
+                    </div>
+                    <div class="stat-text">
+                        <h3 class="white-text blue-border-bottom">56,236</h3>
+                        <h6>누적 푸쉬알림</h6>
+                    </div>
+                </div>
+            </div> <!-- / END COLUMN -->
 
-	        <!-- START COLUMN -->
-	        <div class="col-lg-3 col-sm-3">
-	            <div class="stat wow fadeInUp animated" data-wow-offset="30" data-wow-duration="2.25s" data-wow-delay="1s">
-	                <div class="icon-top yellow-text">
-	                    <i class="icon-picture-streamline-1"></i>
-	                </div>
-	                <div class="stat-text">
-	                <h3 class="white-text yellow-border-bottom">2,519</h3>
-	                <h6>등록된 사진</h6>
-	                </div>
-	            </div>
-	        </div> <!-- / END COLUMN -->
-	    </div>
-</div>
+            <!-- START COLUMN -->
+            <div class="col-lg-3 col-sm-3">
+                <div class="stat wow fadeInUp animated" data-wow-offset="30" data-wow-duration="2.25s" data-wow-delay="1s">
+                    <div class="icon-top yellow-text">
+                        <i class="icon-note"></i>
+                    </div>
+                    <div class="stat-text">
+                        <h3 class="white-text yellow-border-bottom">2,519</h3>
+                        <h6>등록된 성적</h6>
+                    </div>
+                </div>
+            </div> <!-- / END COLUMN -->
+        </div>
+    </div>
 </section>  <!-- / END STATS -->
-
 <!-- =========================
    PRODUCTS SECTION   
 ============================== -->
@@ -568,7 +626,7 @@
 
 		<!-- SHORT DESCRIPTION ABOUT THE SECTION -->
 		<h6 class="white-text">
-			We design &amp; develop qaulity products to help small &amp; medium level business.
+			이미 골프스토리를 이용하고 있는 골프장들입니다.
 		</h6>
 	</div>
 	<!-- / END SECTION HEADER -->
@@ -586,15 +644,15 @@
 							<div class="item-top-content-inner">
 								<div class="item-product">
 									<div class="item-top-title">
-										<h5>One Light</h5>  <!-- PRODUCT TITLE-->
+										<h5>당신을 위한 자리</h5>  <!-- PRODUCT TITLE-->
 										<p class="subdescription">
-											 WordPress Theme
+											 대한민국
 										</p> <!-- PRODUCT DESCRIPTION-->
 									</div>
 								</div>
 								<div class="item-product-price">
 									<!-- PRICE -->
-									<span class="price-num green-text">$17</span>
+									<span class="price-num green-text">100 회원</span>
 									<!-- OLD PRICE START -->
 									<p class="subdescription">
 										 $36
@@ -610,12 +668,11 @@
 							<div class="item-add-content-inner">
 								<div class="section">
 									<p>
-										Creative WordPress Theme
+										당신을 위해 남겨놓은 자리
 									</p>
 								</div>
 								<div class="section">
-									<a href="#" class="btn btn-primary custom-button red-btn">Demo</a><br/>
-									<a href="#" class="btn btn-primary custom-button green-btn">Buy</a>
+									<a href="#" class="btn btn-primary custom-button red-btn">신청</a><br/>
 								</div>
 							</div>
 						</div>
@@ -632,9 +689,9 @@
 							<div class="item-top-content-inner">
 								<div class="item-product">
 									<div class="item-top-title">
-										<h5>Telfez</h5>
+										<h5>가야컨트리클럽</h5>
 										<p  class="subdescription">
-											 WordPress Theme
+											 경남 / 김해
 										</p>
 									</div>
 								</div>
@@ -652,12 +709,12 @@
 							<div class="item-add-content-inner">
 								<div class="section">
 									<p>
-										Creative WordPress Theme
+										경남 김해시 삼방동 산1번지</br>
+                                        055)337-0091
 									</p>
 								</div>
 								<div class="section">
-									<a href="#" class="btn btn-primary custom-button red-btn">Demo</a><br/>
-									<a href="#" class="btn btn-primary custom-button green-btn">Buy</a>
+									<a href="#" class="btn btn-primary custom-button red-btn">홈페이지</a><br/>
 								</div>
 							</div>
 						</div>
@@ -1098,15 +1155,15 @@
    PURCHASE NOW       
 ============================== -->
 
-<section class="purchase-now">
+<section class="purchase-now hidden">
 <div class="container">
 	<div class="row">
 		<div class="col-md-9">
 			<h3 class="white-text wow fadeInLeft animated" data-wow-offset="30" data-wow-duration="1.5s" data-wow-delay="0.15s">
-                이미 많은 매장들이 골프스토리와 함께하고 있습니다. </h3>
+                이미 많은 골프장이 골프스토리와 함께하고 있습니다. </h3>
 		</div>
 		<div class="col-md-3 wow fadeInRight animated" data-wow-offset="30" data-wow-duration="1.5s" data-wow-delay="0.15s">
-			<a href="" class="btn btn-primary custom-button red-btn">서비스 신청하기</a>
+			<a href="" class="btn btn-primary custom-button red-btn">서비스 신청</a>
 		</div>
 	</div>
 </div>
