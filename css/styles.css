@@ -7,7 +7,7 @@ Zerif -One Page Respossive HTML5 Template
 GLOBAL STYLES
 =========================================
 -----------------------------------------*/
-
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
 html {
     
     font-size: 100%;        
@@ -16,7 +16,7 @@ body {
 
 
 
-	font-family:  '나눔고딕','Lato',  sans-serif !important;
+	font-family:  'Nanum Gothic','나눔고딕''nanum gothic','nanumgothic','Lato',  sans-serif !important;
 	font-size: 14px;
 	color: #808080;
 	font-weight: normal;
@@ -104,7 +104,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 h1,h2 {
-	font-family: 'Montserrat', 'sans-serif';
+	font-family: 'Nanum Gothic','Montserrat', 'sans-serif';
 	font-weight: 700;
 	text-transform: uppercase;
 }
@@ -427,7 +427,7 @@ input:focus {
 
 .header {
 	background: rgba(0, 0, 0, 0.5);
-	min-height: 775px;
+	min-height: 500px;
 	position: relative;
 	overflow: hidden;
 }
@@ -1150,28 +1150,28 @@ width: -webkit-calc(100% / 2);
 
 /*--ITEMS IMAGES--*/
 .item-1 {
-	background-image: url(../images/products/1.jpg);
+	background-image: url(../images/products/fotolia_57778182.jpg);
 }
 .item-2 {
-	background-image: url(../images/products/2.jpg);
+	background-image: url(../images/products/fotolia_57778182.jpg);
 }
 .item-3 {
-	background-image: url(../images/products/3.jpg);
+	background-image: url(../images/products/fotolia_57778182.jpg);
 }
 .item-4 {
-	background-image: url(../images/products/4.jpg);
+	background-image: url(../images/products/fotolia_57778182.jpg);
 }
 .item-5 {
-	background-image: url(../images/products/5.jpg);
+	background-image: url(../images/products/fotolia_57778182.jpg);
 }
 .item-6 {
-	background-image: url(../images/products/6.jpg);
+	background-image: url(../images/products/fotolia_57778182.jpg);
 }
 .item-7 {
-	background-image: url(../images/products/7.jpg);
+	background-image: url(../images/products/fotolia_57778182.jpg);
 }
 .item-8 {
-	background-image: url(../images/products/8.jpg);
+	background-image: url(../images/products/fotolia_57778182.jpg);
 }
 
 /*---ITEM STYLE ---*/
@@ -1253,11 +1253,11 @@ width: -webkit-calc(100% / 2);
 }
 /* ITEM DETAILS */
 .item-product {
-	width: 70%;
+	width: 100%;
 	float: left;
 }
 .item-product-price {
-	width: 30%;
+	width: 0%;
 	float: right;
 	text-align: right;
 }
@@ -1318,7 +1318,7 @@ width: -webkit-calc(100% / 2);
 .newsletter h3 {
 	font-size: 28px;
 	text-transform: uppercase;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Nanum Gothic','Montserrat', sans-serif;
 	font-weight: 700;
 	margin-bottom: 8px;
 }
@@ -1367,7 +1367,7 @@ width: -webkit-calc(100% / 2);
 	padding-top: 15px;
 }
 .feedback-box .client-info .client-name {
-	font-family: 'Homemade Apple', serif;
+	font-family: 'Nanum Gothic','Homemade Apple', serif;
 	color: #404040;
 }
 .feedback-box .client-info .client-company {

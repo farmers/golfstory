@@ -26,19 +26,10 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="0" selection-start="1115" selection-end="1115" vertical-scroll-proportion="0.29422274" vertical-offset="0" max-vertical-offset="24377">
+            <state line="81" column="51" selection-start="3004" selection-end="3004" vertical-scroll-proportion="0.5479452" vertical-offset="619" max-vertical-offset="23237">
               <folding>
                 <element signature="n#style#0;n#nav#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Desktop/main-files/Zerif/with-animation/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="899" column="33" selection-start="30691" selection-end="31032" vertical-scroll-proportion="0.0" vertical-offset="16617" max-vertical-offset="33744">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -64,7 +55,7 @@
       <file leaf-file-name="jquery.nav.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/jquery.nav.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="29" selection-start="945" selection-end="950" vertical-scroll-proportion="0.0" vertical-offset="2612" max-vertical-offset="4332">
+            <state line="74" column="24" selection-start="1812" selection-end="1812" vertical-scroll-proportion="0.0" vertical-offset="1092" max-vertical-offset="4009">
               <folding />
             </state>
           </provider>
@@ -73,7 +64,7 @@
       <file leaf-file-name="styles.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="555" column="14" selection-start="9813" selection-end="9815" vertical-scroll-proportion="0.0" vertical-offset="9327" max-vertical-offset="28823">
+            <state line="27" column="56" selection-start="775" selection-end="775" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="28823">
               <folding />
             </state>
           </provider>
@@ -251,6 +242,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\amond\Documents\GitHub\golfstory\images" />
       <recent name="C:\Users\amond\PhpstormProjects\golfstory\images" />
       <recent name="C:\Users\amond\PhpstormProjects\golfstory" />
     </key>
@@ -404,7 +396,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/jquery.scrollTo.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="867" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="867">
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/smoothscroll.js">
@@ -428,28 +424,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/jquery.nav.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="29" selection-start="945" selection-end="950" vertical-scroll-proportion="0.0" vertical-offset="3452" max-vertical-offset="4332">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="555" column="14" selection-start="9813" selection-end="9815" vertical-scroll-proportion="0.0" vertical-offset="9327" max-vertical-offset="28823">
+        <state line="74" column="24" selection-start="1812" selection-end="1812" vertical-scroll-proportion="0.0" vertical-offset="1092" max-vertical-offset="4009">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Desktop/main-files/Zerif/with-animation/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="899" column="33" selection-start="30691" selection-end="31032" vertical-scroll-proportion="0.0" vertical-offset="16617" max-vertical-offset="33744">
+        <state line="892" column="39" selection-start="30806" selection-end="30806" vertical-scroll-proportion="3.0488386" vertical-offset="11829" max-vertical-offset="33744">
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="56" selection-start="775" selection-end="775" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="28823">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/backgrounds/bg3.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="1115" selection-end="1115" vertical-scroll-proportion="0.29422274" vertical-offset="0" max-vertical-offset="24377">
+        <state line="81" column="51" selection-start="3004" selection-end="3004" vertical-scroll-proportion="0.5479452" vertical-offset="619" max-vertical-offset="23237">
           <folding>
             <element signature="n#style#0;n#nav#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
