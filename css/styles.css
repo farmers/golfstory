@@ -505,7 +505,7 @@ input:focus {
 .intro {
 	text-align: center;
 	color: #FFF;
-	margin-top: 25%;
+	margin-top: 150px;
 	line-height: 65px;
 	z-index: 0;
 }
